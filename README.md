@@ -1,1 +1,1 @@
-# apigo-cli
+# microbay CLI
