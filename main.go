@@ -11,10 +11,10 @@ import (
 
 func main() {
 	app := cli.NewApp()
-	app.Name = "Apigo CLI"
-	app.Usage = "CLI for Apigo API gateway"
+	app.Name = "MicroBay CLI"
+	app.Usage = "CLI for MicroBay API gateway"
 	app.Action = func(c *cli.Context) {
-		println("Welcome to " + app.Name + ". Type 'apigo-cli help'")
+		println("Welcome to " + app.Name + ". Type 'cli help'")
 	}
 
 	app.Commands = []cli.Command{
